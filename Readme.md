@@ -73,7 +73,3 @@ airflow scheduler &
 - **Check Logs**: Monitor execution logs in Airflow UI.
 
 
-
-## 📂 Project Structure
-
-zillow-etl-airflow ├── dags │ ├── zillow_analytics.py # Airflow DAG for ETL workflow │ ├── utils.py # Helper functions for data processing ├── scripts │ ├── Zillow_copyRawJsonFile_LF.py # Lambda function to copy raw JSON from S3 │ ├── Zillow_transform_convert_2_csv_LF.py # Lambda function to transform JSON to CSV │ ├── load.py # Data loading script ├── config │ ├── config_api.json # API configuration file ├── requirements.txt # Python dependencies ├── .env # Environment variables (ignored in .gitignore) ├── README.md # Project documentation
